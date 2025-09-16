@@ -33,18 +33,18 @@ Stay tuned for the next task!
 
 Through this internship, I aim to:
 
-Strengthen my Python & Web Development skills
+- Strengthen my Python & Web Development skills
 
-Work on real-world projects week by week
+- Work on real-world projects week by week
 
-Build a professional portfolio of projects
+- Build a professional portfolio of projects
 
 ## 📌 Tech Stack
 
-Python (Tkinter)
+- Python (Tkinter)
 
-HTML, CSS, JavaScript (Upcoming tasks)
+- HTML, CSS, JavaScript (Upcoming tasks)
 
-Git & GitHub for version control
+- Git & GitHub for version control
 
 
