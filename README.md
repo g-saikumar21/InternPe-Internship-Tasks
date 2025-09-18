@@ -30,7 +30,7 @@ A **web-based Tic Tac Toe game** with options for Player vs Player (PvP) and Pla
 - Restart game and reset scoreboard options
 - Built with Flask for backend and HTML/CSS/JavaScript for frontend
 
-📂 (./Week2_TicTacToe)
+📂 [View Project](./Week2_TicTacToe)
 
 **How to Run:**
 ```bash
