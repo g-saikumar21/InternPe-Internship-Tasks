@@ -13,38 +13,48 @@ A **GUI-based Digital Clock** built using **Python’s Tkinter library**.
 - Uses custom fonts and glowing effect for styling  
 - Auto-updates every second
 
-
 📂 [View Project](./Week1_Clock)  
 
 **How to Run:**  
 ```bash
-  cd Week1_Clock
-  python main.py  
+cd Week1_Clock
+python main.py  
 ```
+### ✅ Week 2: Tic Tac Toe (Flask + HTML/CSS/JS)
 
-⏳ Week 2: Coming Soon...
+A **web-based Tic Tac Toe game** with options for Player vs Player (PvP) and Player vs Computer (PvC).
 
-Stay tuned for the next task!
+- Interactive game board with winning highlights and animations
+- PvC mode includes a smart AI using the Minimax algorithm with a slight delay for better UX
+- Live scoreboard tracking X wins, O wins, and Draws
+- Restart game and reset scoreboard options
+- Built with Flask for backend and HTML/CSS/JavaScript for frontend
 
-⏳ Week 3: Coming Soon...  
+📂 (./Week2_TicTacToe)
+
+**How to Run:**
+```bash
+cd Week2_TicTacToe
+# Install Flask if not installed
+pip install Flask
+# Run the app
+python app.py
+# Open browser at:
+http://127.0.0.1:5000/
+```
+⏳ Week 3: Coming Soon...
 ⏳ Week 4: Coming Soon...
 
 ## 🎯 Internship Learnings
 
 Through this internship, I aim to:
 
-- Strengthen my Python & Web Development skills
-
-- Work on real-world projects week by week
-
-- Build a professional portfolio of projects
+- Strengthen my Python & Web Development skills through hands-on projects
+- Work on real-world projects week by week, including GUI applications and web apps
+- Build a professional portfolio of projects, from desktop apps to interactive web applications
 
 ## 📌 Tech Stack
 
-- Python (Tkinter)
-
-- HTML, CSS, JavaScript (Upcoming tasks)
-
+- Python (Tkinter for Week 1, Flask for Week 2)  
+- HTML, CSS, JavaScript (used in Week 2 web project)  
 - Git & GitHub for version control
-
-
