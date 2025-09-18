@@ -1,0 +1,137 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(120deg, #f6d365, #fda085);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+h1 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #444;
+}
+
+.mode-select {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid #333;
+    transition: 0.3s;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.1);
+}
+
+.cell:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+}
+
+.cell.X {
+    color: #e74c3c;
+    transform: scale(0);
+    animation: pop 0.3s forwards;
+}
+
+.cell.O {
+    color: #3498db;
+    transform: scale(0);
+    animation: pop 0.3s forwards;
+}
+
+.cell.win {
+    background-color: #2ecc71 !important;
+    color: #fff;
+}
+
+@keyframes pop {
+    to { transform: scale(1); }
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background-color: #3498db;
+    color: #fff;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#message {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.footer {
+    position: fixed;
+    bottom: 15px;
+    right: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    color: #222;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+
+@media (max-width: 500px) {
+    .board {
+        grid-template-columns: repeat(3, 70px);
+        grid-gap: 8px;
+    }
+    .cell {
+        width: 70px;
+        height: 70px;
+        font-size: 36px;
+    }
+    .scoreboard {
+        gap: 15px;
+        font-size: 16px;
+    }
+}
