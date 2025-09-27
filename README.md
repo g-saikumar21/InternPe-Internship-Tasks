@@ -42,7 +42,26 @@ python app.py
 # Open browser at:
 http://127.0.0.1:5000/
 ```
-⏳ Week 3: Coming Soon...  
+### ✅ Week 3: Snake Game (Tkinter)
+
+A **classic Snake Game** built using **Python’s Tkinter library**.  
+
+- Control the snake using arrow keys to eat food and grow longer  
+- Live score tracker to keep track of your points  
+- Game Over screen with the option to press **R** to restart  
+- Smooth movement with colorful canvas graphics  
+
+📂 [View Project](./Week3_SnakeGame)
+
+**How to Run:**  
+```bash
+cd Week3_SnakeGame
+# Install requirements if any
+pip install -r requirements.txt
+# Run the game
+python main.py
+```
+  
 ⏳ Week 4: Coming Soon...
 
 ## 🎯 Internship Learnings
