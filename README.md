@@ -56,8 +56,6 @@ A **classic Snake Game** built using **Python’s Tkinter library**.
 **How to Run:**  
 ```bash
 cd Week3_SnakeGame
-# Install requirements if any
-pip install -r requirements.txt
 # Run the game
 python main.py
 ```
