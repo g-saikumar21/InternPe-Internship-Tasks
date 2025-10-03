@@ -60,7 +60,24 @@ cd Week3_SnakeGame
 python main.py
 ```
   
-⏳ Week 4: Coming Soon...
+###✅ Week 4: Connect Four (Tkinter)
+
+A **modern Connect Four Game** built using **Python’s Tkinter library**.
+
+- Play against another player (PvP) or the computer (PvC)
+- Turn indicator and live move counter for better UX
+- Scoreboard to track wins of Red and Yellow
+- Gradient cherry blossom background with glow effect for discs
+- Game instructions and interactive buttons for Restart & Mode Switch
+
+📂 [View Project](./Week4_ConnectFour)
+
+**How to Run:**  
+```bash
+cd Week4_ConnectFour
+# Run the game
+python main.py
+```
 
 ## 🎯 Internship Learnings
 
@@ -72,6 +89,6 @@ Through this internship, I aim to:
 
 ## 📌 Tech Stack
 
-- Python (Tkinter for Week 1, Flask for Week 2)  
+- Python (Tkinter for Week 1, 3, 4; Flask for Week 2)  
 - HTML, CSS, JavaScript (used in Week 2 web project)  
 - Git & GitHub for version control
